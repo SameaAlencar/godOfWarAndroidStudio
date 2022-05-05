@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    >
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/fim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.99" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="123dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/pesquisar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.03967168" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/pesquisar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.12995896" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.20" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="329dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.70" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#242734"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image14"
+        app:layout_constraintBottom_toTopOf="@+id/pesquisar"
+        app:layout_constraintEnd_toStartOf="@+id/search"
+        app:layout_constraintTop_toBottomOf="@+id/pesquisar2"
+        app:layout_constraintStart_toEndOf="@+id/v1"
+
+        />
+
+    <EditText
+        android:background="@drawable/borderimage"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#424657"
+        android:text="God of war"
+        android:paddingLeft="10dp"
+        android:textColor="#BBBBBB"
+        app:layout_constraintBottom_toTopOf="@+id/pesquisar"
+        app:layout_constraintEnd_toStartOf="@id/fim"
+        app:layout_constraintStart_toEndOf="@+id/search"
+        app:layout_constraintTop_toBottomOf="@+id/pesquisar2"
+
+        />
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="770dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/img1"
+
+                />
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/image17"
+
+                />
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/image19" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="770dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="200dp">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/image19"
+
+                />
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/image18"
+
+                />
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/image18" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
