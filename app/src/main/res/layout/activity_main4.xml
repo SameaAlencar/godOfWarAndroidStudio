@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:background="#242734">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/fim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.99" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/search2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.70"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="123dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/pesquisar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.12" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.65" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.88" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image14"
+        app:layout_constraintBottom_toTopOf="@+id/pesquisar"
+        app:layout_constraintEnd_toStartOf="@+id/search"
+        app:layout_constraintStart_toEndOf="@+id/v1" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="View Game"
+        android:textColor="#fff"
+        android:fontFamily="@font/turretroad_extrabold"
+        app:layout_constraintBottom_toTopOf="@+id/pesquisar"
+        app:layout_constraintStart_toEndOf="@+id/search"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#424657"
+        app:layout_constraintStart_toEndOf="@+id/search2"
+        app:layout_constraintBottom_toTopOf="@id/pesquisar"
+        app:layout_constraintEnd_toStartOf="@id/fim"/>
+
+    <ImageView
+        android:layout_width="576dp"
+        android:layout_height="283dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/image20"
+        app:layout_constraintBottom_toTopOf="@+id/h4"
+        tools:layout_editor_absoluteX="-83dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/turretroad_extrabold"
+        android:text="God of war: Ascension"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@id/h5" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:text="This prequel to the very first game in the God of War series and the seventh game in the franchise. It is exclusive for the Sony
+        PlayStation 3 console. The game still uses the ancient Greek mythology as visual inspiration and the primary story source.
+The player takes control over the warrior Kratos. At the beginning of the game, the protagonist was imprisoned after he violated the
+blood oath given to the god of war Ares. One of the three goddess"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/h6"
+        app:layout_constraintTop_toTopOf="@+id/h5"
+        tools:layout_editor_absoluteX="-5dp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/nitendo"
+
+        app:layout_constraintTop_toBottomOf="@id/h6"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/windows"
+        app:layout_constraintTop_toBottomOf="@id/h6"
+        tools:layout_editor_absoluteX="47dp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/android"
+        app:layout_constraintTop_toBottomOf="@id/h6"
+        tools:layout_editor_absoluteX="98dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FFAF29"
+        android:text="Watch"
+        app:layout_constraintTop_toBottomOf="@id/h6"
+        tools:layout_editor_absoluteX="245dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

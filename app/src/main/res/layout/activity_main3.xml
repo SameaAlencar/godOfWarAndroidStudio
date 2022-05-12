@@ -94,10 +94,10 @@
         android:layout_height="50dp"
         android:text="New and trending"
         android:textSize="28dp"
+        android:fontFamily="@font/turretroad_extrabold"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@id/text"
-        android:paddingLeft="10dp"
-        />
+        android:paddingLeft="10dp" />
 
     <HorizontalScrollView
         android:layout_width="match_parent"
@@ -122,6 +122,48 @@
                     android:background="@drawable/borderimage"
                     android:src="@drawable/image"
                     />
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="65dp"
+                    android:layout_marginTop="170dp"
+                    android:text="Contra |||: The Alien Wars"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/turretroad_extrabold"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="15dp"
+                    />
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/android"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginLeft="80dp"
+
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/windows"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginLeft="45dp"
+
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/nitendo"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginLeft="10dp" />
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="#FFAF29"
+                    android:layout_marginTop="240dp"
+                    android:layout_marginLeft="140dp"
+                    android:text="Watch"
+                    />
 
             </androidx.cardview.widget.CardView>
 
@@ -138,6 +180,53 @@
                     android:background="@drawable/borderimage"
                     android:src="@drawable/image" />
 
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="65dp"
+                    android:layout_marginTop="170dp"
+                    android:text="Contra |||: The Alien Wars"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/turretroad_extrabold"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="15dp"
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/android"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginLeft="80dp"
+
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/windows"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginLeft="45dp"
+
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/nitendo"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginLeft="10dp"
+
+
+                    />
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="#FFAF29"
+                    android:layout_marginTop="240dp"
+                    android:layout_marginLeft="140dp"
+                    android:text="Watch"
+                    />
+
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -152,6 +241,53 @@
                     android:layout_height="183dp"
                     android:background="@drawable/borderimage"
                     android:src="@drawable/image" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="65dp"
+                    android:layout_marginTop="170dp"
+                    android:text="Contra |||: The Alien Wars"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/turretroad_extrabold"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="15dp"
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/android"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginLeft="80dp"
+
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/windows"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginLeft="45dp"
+
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/nitendo"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginLeft="10dp"
+
+
+                    />
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="#FFAF29"
+                    android:layout_marginTop="240dp"
+                    android:layout_marginLeft="140dp"
+                    android:text="Watch"
+                    />
 
             </androidx.cardview.widget.CardView>
 
@@ -164,6 +300,7 @@
         android:layout_height="50dp"
         android:text="Best of the year"
         android:textSize="28dp"
+        android:fontFamily="@font/turretroad_extrabold"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/h5"
         android:paddingLeft="10dp"
@@ -180,36 +317,137 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
+            <androidx.cardview.widget.CardView
+                android:layout_width="130dp"
+                android:layout_height="200dp"
+                android:backgroundTint="#242734"
+                android:layout_marginLeft="5dp">
+
             <ImageView
                 android:layout_width="120dp"
                 android:layout_height="200dp"
                 android:paddingLeft="10dp"
                 android:src="@drawable/image11"
-                android:layout_marginLeft="5dp"/>
-            <ImageView
-                android:layout_width="120dp"
+                android:paddingBottom="50dp"
+                />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="140dp"
+                    android:text="The witcher"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/turretroad_extrabold"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="15dp"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="130dp"
                 android:layout_height="200dp"
-                android:layout_marginLeft="30dp"
-                android:src="@drawable/image12"/>
+                android:backgroundTint="#242734"
+                android:layout_marginLeft="5dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/image12"
+                    android:paddingBottom="50dp"
+                    />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Portal 2"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="30dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="130dp"
+                android:layout_height="200dp"
+                android:backgroundTint="#242734"
+                android:layout_marginLeft="5dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/image13"
+                    android:paddingBottom="50dp"
+                    />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="140dp"
+                    android:text="God of war"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="15dp"
+                    />
+
+            </androidx.cardview.widget.CardView>
 
 
-            <ImageView
-                android:layout_width="120dp"
+            <androidx.cardview.widget.CardView
+                android:layout_width="130dp"
                 android:layout_height="200dp"
-                android:layout_marginLeft="20dp"
-                android:src="@drawable/image13"/>
+                android:backgroundTint="#242734"
+                android:layout_marginLeft="5dp">
 
-            <ImageView
-                android:layout_width="120dp"
-                android:layout_height="200dp"
-                android:layout_marginLeft="20dp"
-                android:src="@drawable/image11"/>
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/image11"
+                    android:paddingBottom="50dp"
+                    />
 
-            <ImageView
-                android:layout_width="120dp"
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="140dp"
+                    android:text="The witcher"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="15dp"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="130dp"
                 android:layout_height="200dp"
-                android:layout_marginLeft="20dp"
-                android:src="@drawable/image12"/>
+                android:backgroundTint="#242734"
+                android:layout_marginLeft="5dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/image12"
+                    android:paddingBottom="50dp"
+                    />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Portal 2"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="35dp"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
 
         </LinearLayout>
 
